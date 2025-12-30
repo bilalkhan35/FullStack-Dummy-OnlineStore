@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "dev": " nodemon server.js"
+    "dev": " nodemon server.js",
+    "seed": "node confiq/seed.js"
   },
   "author": "Muhammad Bilal Rathore",
   "license": "ISC",

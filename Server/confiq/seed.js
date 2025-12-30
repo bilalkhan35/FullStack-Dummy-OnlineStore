@@ -5,8 +5,10 @@ import Item from "../models/items.model.js";
 
 dotenv.config();
 
-console.log("MONGO_URI:", process.env.MONGO_URI);
-await mongoose.connect(process.env.MONGO_URI);
+// Use MONGO_URI from .env if present, otherwise fallback to local dev DB
+const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/store2";
+console.log("Seeding DB. Using MONGO_URI:", MONGO_URI);
+await mongoose.connect(MONGO_URI);
 
 const products = [
   {
