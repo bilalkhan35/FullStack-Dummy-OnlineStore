@@ -1,0 +1,43 @@
+# UI
+ReduxStore/redux_online_store/node_modules/
+
+# Server
+Server/node_modules/
+Server/.env
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+
+
+# Build output
+Ui/dist/
+Ui/build/
+Server/dist/
+Server/build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Optional: lock files if you don’t want them in repo
+package-lock.json
+yarn.lock

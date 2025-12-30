@@ -1,0 +1,33 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "it is a full stack app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": " nodemon server.js"
+  },
+  "author": "Muhammad Bilal Rathore",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "email-validator": "^2.0.4",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.19.0",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nanoid": "^5.1.6",
+    "nodemailer": "^7.0.11",
+    "password-validator": "^5.3.0",
+    "stripe": "^19.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
