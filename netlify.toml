@@ -1,0 +1,9 @@
+[build]
+  base = "ReduxStore/redux_online_store"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
